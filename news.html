@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<style>
+body {
+  margin: 0;
+  background-color: rgb(210, 198, 198);
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #7b2624;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+h1 {
+  padding-left: 20px;
+  padding-top: 3px;
+  color: white;
+  font-size: 1.1rem;
+}
+
+h2 {font-size: 1.5rem; text-align: center;}
+
+ #img1 {
+    border: solid 5px; text-align: center; padding: 2cm}
+
+</style>
+</head>
+<body>
+  
+ 
+<ul class="topnav">
+  <li><a class="active" href="news.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="services.html">Services</a></li>
+   
+  <li><a href="home.html">Home</a></li>
+  <h1> Nazare Kustoms </h1>
+</ul>
+
+<div>
+ <figure id="img1">
+  <img src="/website/20180816_113815.jpg" alt="img1" height="375px" width="664px">
+  <img src="/website/20180816_114705.jpg" alt="img1" height="375px" width="664px">
+  <img src="/website/20180925_165423.jpg" alt="img1" height="375px" width="664px">
+  <img src="/website/20181008_105042.jpg" alt="img1" height="375px" width="664px">
+</figure>
+</div>
+
+</body>
+</html>
